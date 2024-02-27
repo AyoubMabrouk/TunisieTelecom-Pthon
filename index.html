@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Python-Telecom</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="images/Python-logo-notext.svg.png">
+
+</head>
+
+<body>
+
+	<div class="container d-flex align-items-stretch">
+		<nav id="sidebar" class="img" style="background-image: url(images/bg_1.jpg;)">
+			<div class="p-4">
+				<h1><a href="https://www.tunisietelecom.tn/" class="logo" target="_blank">Tunisie Telecom <img
+							src="images/TT-Logo.png" alt="TT-Logo was not displayed, check your browser settings"
+							style="max-width: 40%;"></a></h1>
+				<ul class="list-unstyled components mb-5">
+					<li class="nav-item active">
+						<a href="javascript:void(0);" onclick="showContent('page0',this)"><span
+								class="fa fa-home mr-3"></span> Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="javascript:void(0);" onclick="showContent('page1',this)"><span
+								class="fa fa-search mr-3"></span> Python Data Analysis &nbsp;&nbsp;&nbsp;</a>
+					</li>
+					<li class="nav-item">
+						<a href="javascript:void(0);"
+							onclick="showContent('page1',this)">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1-
+							Variables Trends&nbsp;&nbsp;&nbsp;<i class="fa fa-random" aria-hidden="true"></i></a>
+					</li>
+					<li class="nav-item">
+						<a href="javascript:void(0);"
+							onclick="showContent('page2',this)">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2-
+							Data Visualization&nbsp;<i class="fa fa-bar-chart" aria-hidden="true"></i>
+							</i></a>
+					</li>
+					<li class="nav-item">
+						<a href="javascript:void(0);"
+							onclick="showContent('page3',this)">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3-
+							Pretty PCA <i class="fa fa-arrows-alt" aria-hidden="true"></i>
+							</i></a>
+					</li>
+					<li class="nav-item">
+						<a href="javascript:void(0);"
+							onclick="showContent('page4',this)">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4-
+							Clustering <i class="fa fa-object-group" aria-hidden="true"></i>
+							</i></a>
+					</li>
+					<li class="nav-item">
+						<a href="javascript:void(0);"
+							onclick="showContent('page5',this)">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5-
+							Statut Prediction&nbsp;<i class="fa fa-wpexplorer fa-lg" aria-hidden="true"></i>
+							</i></a>
+					</li>
+					<li class="nav-item">
+						<a href="https://github.com/AyoubMabrouk" target="_blank"><span class="fa fa-github mr-3"
+								aria-hidden="true"></span> GitHub Link</a>
+					</li>
+					<li class="nav-item">
+						<a href="https://ayoub-mabrouk-portfolio.vercel.app/" target="_blank"><span
+								class="fa fa-address-book mr-3"></span> Website & Contact</a>
+					</li>
+
+				</ul>
+				<div style="text-align: center;">
+					<a href="https://ayoub-mabrouk-portfolio.vercel.app/" target="_blank">
+						<h3 style="color: #fff;">Ayoub MABOUK</h3>
+						<h3 style="color: #fff;">ERP - BI</h3>
+					</a>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Page Content  -->
+		<div id="content" class="p-4 p-md-5 pt-5">
+			<h1
+				style="color: rgb(63, 5, 95); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+				Tunisie Telecom Data Analyse</h1>
+			<div id="page0" class="content-section" style="display: block;">
+				<u>
+					<h1>Description</h1>
+				</u>
+				<p>
+				<ul>
+					<li>Examined Tunisie Telecom data trends of 92 thousand customers including call usage,
+						<br> messaging patterns, chosen offer and plan, Using Python.
+					</li>
+					<li>These dashboards were analysed to identify opportunities to increase revenue,
+						<br>optimize cost, and improve customer retention.
+					</li>
+					<li>Converted Jupyter Notebooks To HTML Files To Be Hosted.</li>
+					<li><u>NB</u> : To respect the organisation privacy, Data was faked.</li>
+				</ul>
+				</p>
+				<img src="images/TT-analyse.gif" style="width: 50%; margin-left: 50%; border-radius: 50%;"
+					alt="An error while displaying the image , check your browser settings">
+			</div>
+			<div id="page1" class="content-section">
+				<u>
+					<h1>Variables Trends Analysis</h1>
+				</u>
+				<iframe title="Variables Behavior Analysis" width="1140" height="541.25"
+					src="ConvertedNotebooks/1-Telecom-ComportementVariables.html" frameborder="0" allowFullScreen="true"
+					style="border-radius: 10px; width: 100%;"></iframe>
+			</div>
+			<div id="page2" class="content-section">
+				<u>
+					<h1>Data Visualisation</h1>
+				</u>
+				<iframe title="Data Visualisation" width="1140" height="541.25"
+					src="ConvertedNotebooks/2-Telecom-DescriptionVariablesPlots.html" frameborder="0"
+					allowFullScreen="true" style="border-radius: 10px;width: 100%;"></iframe>
+			</div>
+			<div id="page3" class="content-section">
+				<u>
+					<h1>Pretty PCA Using adjustText</h1>
+				</u>
+				<iframe title="Pretty PCA" width="1140" height="541.25"
+					src="ConvertedNotebooks/3-Telecom-PCA+Couleurs.html" frameborder="0" allowFullScreen="true"
+					style="border-radius: 10px;width: 100%;"></iframe>
+			</div>
+			<div id="page4" class="content-section">
+				<u>
+					<h1>Clustering Using CAH & Kmeans</h1>
+				</u>
+				<iframe title="Clustering" width="1140" height="541.25"
+					src="ConvertedNotebooks/4-Telecom-Clustering.html" frameborder="0" allowFullScreen="true"
+					style="border-radius: 10px;width: 100%;"></iframe>
+			</div>
+			<div id="page5" class="content-section">
+				<u>
+					<h1>Statut Classification & Prediction Using LogisticRegression</h1>
+				</u>
+				<iframe title="Clustering" width="1140" height="541.25"
+					src="ConvertedNotebooks/5-Telecom-PredictionStatut-Classification.html" frameborder="0" allowFullScreen="true"
+					style="border-radius: 10px;width: 100%;"></iframe>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
